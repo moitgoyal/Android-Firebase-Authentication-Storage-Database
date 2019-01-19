@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/contextual_or_pop_menu">
+    <item
+        android:id="@+id/contextual_or_pop_menu_copy"
+        app:showAsAction="always"
+        android:icon="@drawable/duplicate"
+        android:title="Duplicate">
+    </item>
+    <item
+        android:id="@+id/contextual_or_pop_menu_delete"
+        app:showAsAction="always"
+        android:icon="@drawable/delete"
+        android:title="Delete">
+    </item>
+</menu>
